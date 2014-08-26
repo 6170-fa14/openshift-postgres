@@ -1,0 +1,21 @@
+{
+  "name": "openshift-postgres",
+  "description": "basic Node.js + PostgreSQL template for OpenShift",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6170-fa14/openshift-postgres"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": ">= 4.0.0",
+    "pg": ">= 3.4.1"
+  },
+
+  "main": "server.js"
+}
