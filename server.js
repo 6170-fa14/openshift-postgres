@@ -12,7 +12,6 @@ if (process.env.OPENSHIFT_POSTGRESQL_DB_PASSWORD) {
         process.env.OPENSHIFT_POSTGRESQL_DB_PORT + '/mypostgres';
 }
 
-console.log("Postgres connection to " + connection_string);
 var db = new pg.Client(connection_string);
 
 app.get('/', function(req, res) {
